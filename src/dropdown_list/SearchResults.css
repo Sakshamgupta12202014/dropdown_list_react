@@ -1,0 +1,22 @@
+.search-list{
+    margin-top: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 300px;
+    overflow-y: scroll;
+    box-shadow: 0 0 8px #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+.list-item{
+    list-style: none;
+    color: black;
+    padding: 10px 20px;
+
+}
+
+.list-item:hover{
+    background-color: #efefef;
+}
