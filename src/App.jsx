@@ -1,11 +1,10 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import "./App.css";
 import DropdownList from "./dropdown_list/DropdownList";
 import { useState } from "react";
 import CitySearch from "./CitySearch";
 import SearchResults from "./dropdown_list/SearchResults";
+import GeneratePassword from "./password_generator/GeneratePassword";
+import ScrollToView from "./password_generator/ScrollToView";
 
 function App() {
   // const cities = ["delhi", "noida", "budaun", "bisauli", "neemkarauli", "mumbai", "naashik", "bandra" ];
@@ -36,9 +35,11 @@ function App() {
 
       {/* now we will pass the setResults function to the DropdownList component kyun , kyunki results DropdownList comp mei mil raha hai , waha se setResults func ko use krke results var mei pass kr denge */}
       <div className="main-content">
-        <DropdownList setResults={setResults} />
+        {/* <DropdownList setResults={setResults} />
         <SearchResults results={results}/>
-        <div>This is random text</div>
+        <div>This is random text</div> */}
+        {/* <GeneratePassword /> */}
+        <ScrollToView />
       </div>
     </>
   );
