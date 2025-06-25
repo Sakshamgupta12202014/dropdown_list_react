@@ -38,8 +38,8 @@ function App() {
         {/* <DropdownList setResults={setResults} />
         <SearchResults results={results}/>
         <div>This is random text</div> */}
-        {/* <GeneratePassword /> */}
-        <ScrollToView />
+        <GeneratePassword />
+        {/* <ScrollToView /> */}
       </div>
     </>
   );

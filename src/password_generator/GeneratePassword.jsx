@@ -102,10 +102,12 @@ function GeneratePassword() {
           defaultChecked={numbersAllowed}
           onClick={handleClick}
           name="numbers"
+          id="numbers"
         />
         <label htmlFor="numbers">Numbers</label>
         <input
           type="checkbox"
+          id="characters"
           defaultChecked={charactersAllowed}
           onClick={handleClick}
           name="characters"
